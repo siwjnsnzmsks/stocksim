@@ -7,12 +7,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: 解压并编译
+      - name: 修配置并编译
         run: |
-          if [ -f project.zip ]; then unzip -q project.zip -d g; D=g; else D=.; fi
-          bash "$D/tools/ci_build.sh"
+          unzip -oq project.zip -d g
+          python3 - <<'PY'
+          p='g/export_presets.cfg'
+          s=open(p,encoding='utf-8').read().split('\n')
+          s=[l for l in s if 'target_sdk' not in l]
+          open(p,'w',encoding='utf-8').write('\n'.join(s))
+          q='g/project.godot'
+          t=open(q,encoding='utf-8').read()
+          k='rendering/textures/vram_compression/import_etc2_astc=true'
+          if k not in t:
+              t=t.replace('[rendering]\n','[rendering]\n'+k+'\n')
+              open(q,'w',encoding='utf-8').write(t)
+          print('target_sdk 残留:', sum('target_sdk' in l for l in s))
+          print('ETC2 已开:', k in open(q,encoding='utf-8').read())
+          PY
+          bash g/tools/ci_build.sh
           mkdir -p out
-          cp "$D/build/stocksim-debug.apk" out/stocksim-debug.apk
+          cp g/build/stocksim-debug.apk out/stocksim-debug.apk
       - uses: actions/upload-artifact@v4
         with:
           name: stocksim-apk
