@@ -8,7 +8,7 @@ Loading package information...                                                  
 
 total 32
 drwxrwxrwx  8 root root 4096 Nov 16 21:37 .
-drwxrwxrwx 11 root root 4096 Nov 23 14:43 ..
+drwxrwxrwx 11 root root 4096 Nov 23 14:46 ..
 drwxrwxrwx  6 root root 4096 Nov 16 21:37 34.0.0
 drwxrwxrwx  6 root root 4096 Nov 16 21:37 35.0.0
 [4/6] 下载 Godot 编辑器与模板
@@ -16,37 +16,37 @@ drwxrwxrwx  6 root root 4096 Nov 16 21:37 35.0.0
   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
                                  Dload  Upload  Total   Spent   Left   Speed
   0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0
-  0      0   0      0   0      0      0      0                              0100 74.25M 100 74.25M   0      0 209.0M      0                              0100 74.25M 100 74.25M   0      0 209.0M      0                              0100 74.25M 100 74.25M   0      0 209.0M      0                              0
--rw-r--r-- 1 runner runner 75M Nov 23 14:43 /tmp/godot.zip
+  0      0   0      0   0      0      0      0                              0100 74.25M 100 74.25M   0      0 168.8M      0                              0100 74.25M 100 74.25M   0      0 168.8M      0                              0100 74.25M 100 74.25M   0      0 168.8M      0                              0
+-rw-r--r-- 1 runner runner 75M Nov 23 14:46 /tmp/godot.zip
 下载 https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz
   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
                                  Dload  Upload  Total   Spent   Left   Speed
   0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0
-  0      0   0      0   0      0      0      0                              0 32  1.19G  32 393.5M   0      0 364.5M      0   00:03   00:01   00:02 393.5M 69  1.19G  69 846.0M   0      0 407.0M      0   00:03   00:02   00:01 423.2M100  1.19G 100  1.19G   0      0 411.6M      0   00:02   00:02         423.2M100  1.19G 100  1.19G   0      0 411.6M      0   00:02   00:02         423.2M100  1.19G 100  1.19G   0      0 411.6M      0   00:02   00:02         423.2M
--rw-r--r-- 1 runner runner 1.2G Nov 23 14:43 /tmp/templates.tpz
+  0      0   0      0   0      0      0      0                              0  8  1.19G   8 105.3M   0      0 88.90M      0   00:13   00:01   00:12 105.3M 16  1.19G  16 200.0M   0      0 90.62M      0   00:13   00:02   00:11 98.95M 25  1.19G  25 310.1M   0      0 95.75M      0   00:12   00:03   00:09 101.6M 35  1.19G  35 430.1M   0      0 101.1M      0   00:12   00:04   00:08 105.7M 44  1.19G  44 540.0M   0      0 102.3M      0   00:11   00:05   00:06 106.1M 53  1.19G  53 652.4M   0      0 103.9M      0   00:11   00:06   00:05 107.5M 61  1.19G  61 750.1M   0      0 102.4M      0   00:11   00:07   00:04 107.6M 71  1.19G  71 868.3M   0      0 104.3M      0   00:11   00:08   00:03 109.9M 77  1.19G  77 949.8M   0      0 101.9M      0   00:11   00:09   00:02 102.6M 86  1.19G  86  1.03G   0      0 102.2M      0   00:11   00:10   00:01 102.0M 94  1.19G  94  1.12G   0      0 101.0M      0   00:12   00:11   00:01 97.52M100  1.19G 100  1.19G   0      0 101.5M      0   00:12   00:12         97.52M100  1.19G 100  1.19G   0      0 101.5M      0   00:12   00:12         97.52M100  1.19G 100  1.19G   0      0 101.5M      0   00:12   00:12         97.52M
+-rw-r--r-- 1 runner runner 1.2G Nov 23 14:46 /tmp/templates.tpz
 二进制: /tmp/godotbin/Godot_v4.7.2-stable_linux.x86_64
 4.7.2.stable.official.ed1daf0bf
 模板目录：
 total 2.0G
--rw-r--r-- 1 runner runner 122M Nov 23 14:43 android_debug.apk
--rw-r--r-- 1 runner runner 100M Nov 23 14:43 android_release.apk
--rw-r--r-- 1 runner runner 205M Nov 23 14:43 android_source.zip
--rw-r--r-- 1 runner runner 4.6M Nov 23 14:43 icudt_godot.dat
--rw-r--r-- 1 runner runner 194M Nov 23 14:43 ios.zip
--rwxr-xr-x 1 runner runner  65M Nov 23 14:43 linux_debug.arm32
--rwxr-xr-x 1 runner runner  66M Nov 23 14:43 linux_debug.arm64
--rwxr-xr-x 1 runner runner  72M Nov 23 14:43 linux_debug.x86_32
--rwxr-xr-x 1 runner runner  71M Nov 23 14:43 linux_debug.x86_64
--rwxr-xr-x 1 runner runner  63M Nov 23 14:43 linux_release.arm32
--rwxr-xr-x 1 runner runner  64M Nov 23 14:43 linux_release.arm64
--rwxr-xr-x 1 runner runner  73M Nov 23 14:43 linux_release.x86_32
--rwxr-xr-x 1 runner runner  71M Nov 23 14:43 linux_release.x86_64
--rw-r--r-- 1 runner runner 118M Nov 23 14:43 macos.zip
--rw-r--r-- 1 runner runner   13 Nov 23 14:43 version.txt
--rw-r--r-- 1 runner runner 9.9M Nov 23 14:43 web_debug.zip
--rw-r--r-- 1 runner runner  12M Nov 23 14:43 web_dlink_debug.zip
--rw-r--r-- 1 runner runner  12M Nov 23 14:43 web_dlink_nothreads_debug.zip
--rw-r--r-- 1 runner runner  12M Nov 23 14:43 web_dlink_nothreads_release.zip
+-rw-r--r-- 1 runner runner 122M Nov 23 14:47 android_debug.apk
+-rw-r--r-- 1 runner runner 100M Nov 23 14:47 android_release.apk
+-rw-r--r-- 1 runner runner 205M Nov 23 14:47 android_source.zip
+-rw-r--r-- 1 runner runner 4.6M Nov 23 14:47 icudt_godot.dat
+-rw-r--r-- 1 runner runner 194M Nov 23 14:47 ios.zip
+-rwxr-xr-x 1 runner runner  65M Nov 23 14:47 linux_debug.arm32
+-rwxr-xr-x 1 runner runner  66M Nov 23 14:47 linux_debug.arm64
+-rwxr-xr-x 1 runner runner  72M Nov 23 14:47 linux_debug.x86_32
+-rwxr-xr-x 1 runner runner  71M Nov 23 14:47 linux_debug.x86_64
+-rwxr-xr-x 1 runner runner  63M Nov 23 14:47 linux_release.arm32
+-rwxr-xr-x 1 runner runner  64M Nov 23 14:47 linux_release.arm64
+-rwxr-xr-x 1 runner runner  73M Nov 23 14:47 linux_release.x86_32
+-rwxr-xr-x 1 runner runner  71M Nov 23 14:47 linux_release.x86_64
+-rw-r--r-- 1 runner runner 118M Nov 23 14:47 macos.zip
+-rw-r--r-- 1 runner runner   13 Nov 23 14:47 version.txt
+-rw-r--r-- 1 runner runner 9.9M Nov 23 14:47 web_debug.zip
+-rw-r--r-- 1 runner runner  12M Nov 23 14:47 web_dlink_debug.zip
+-rw-r--r-- 1 runner runner  12M Nov 23 14:47 web_dlink_nothreads_debug.zip
+-rw-r--r-- 1 runner runner  12M Nov 23 14:47 web_dlink_nothreads_release.zip
 [5/6] 配置签名与编辑器设置
 	for: CN=Android Debug, O=Android, C=US
 [Storing /home/runner/.android/debug.keystore]
@@ -133,7 +133,6 @@ Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
 [92m[ DONE ][39m [1mfirst_scan_filesystem[22m
 [0m
 ERROR: Cannot export project with preset "Android" due to configuration errors:
-"Target SDK" can only be overridden when "Use Gradle Build" is enabled.
 ETC2/ASTC texture compression is required for Android export. In Project Settings, search for 'ETC2' in the search field, or enable 'Advanced Settings' and go to Rendering > Textures > VRAM Compression to enable 'Import ETC2 ASTC'.
 
    at: _fs_changed (editor/editor_node.cpp:1401)
@@ -478,35 +477,35 @@ _editor_log_collapse = false
 shortcuts = []
 builtin_action_overrides = []
 total 2023760
-drwxr-xr-x 2 runner runner      4096 Nov 23 14:43 .
-drwxr-xr-x 3 runner runner      4096 Nov 23 14:43 ..
--rw-r--r-- 1 runner runner 127260725 Nov 23 14:43 android_debug.apk
--rw-r--r-- 1 runner runner 104803333 Nov 23 14:43 android_release.apk
--rw-r--r-- 1 runner runner 214418211 Nov 23 14:43 android_source.zip
--rw-r--r-- 1 runner runner   4797472 Nov 23 14:43 icudt_godot.dat
--rw-r--r-- 1 runner runner 202976946 Nov 23 14:43 ios.zip
--rwxr-xr-x 1 runner runner  67185452 Nov 23 14:43 linux_debug.arm32
--rwxr-xr-x 1 runner runner  68160800 Nov 23 14:43 linux_debug.arm64
--rwxr-xr-x 1 runner runner  75323448 Nov 23 14:43 linux_debug.x86_32
--rwxr-xr-x 1 runner runner  73703800 Nov 23 14:43 linux_debug.x86_64
--rwxr-xr-x 1 runner runner  65784612 Nov 23 14:43 linux_release.arm32
--rwxr-xr-x 1 runner runner  67079432 Nov 23 14:43 linux_release.arm64
--rwxr-xr-x 1 runner runner  75679864 Nov 23 14:43 linux_release.x86_32
--rwxr-xr-x 1 runner runner  73519416 Nov 23 14:43 linux_release.x86_64
--rw-r--r-- 1 runner runner 123597580 Nov 23 14:43 macos.zip
--rw-r--r-- 1 runner runner        13 Nov 23 14:43 version.txt
--rw-r--r-- 1 runner runner  10342534 Nov 23 14:43 web_debug.zip
--rw-r--r-- 1 runner runner  12125435 Nov 23 14:43 web_dlink_debug.zip
--rw-r--r-- 1 runner runner  12014273 Nov 23 14:43 web_dlink_nothreads_debug.zip
--rw-r--r-- 1 runner runner  11549046 Nov 23 14:43 web_dlink_nothreads_release.zip
--rw-r--r-- 1 runner runner  11568406 Nov 23 14:43 web_dlink_release.zip
--rw-r--r-- 1 runner runner  10232720 Nov 23 14:43 web_nothreads_debug.zip
--rw-r--r-- 1 runner runner  10245903 Nov 23 14:43 web_nothreads_release.zip
--rw-r--r-- 1 runner runner  10290815 Nov 23 14:43 web_release.zip
--rwxr-xr-x 1 runner runner  98958848 Nov 23 14:43 windows_debug_arm64.exe
--rwxr-xr-x 1 runner runner    159744 Nov 23 14:43 windows_debug_arm64_console.exe
--rwxr-xr-x 1 runner runner 113264640 Nov 23 14:43 windows_debug_x86_32.exe
--rwxr-xr-x 1 runner runner    192000 Nov 23 14:43 windows_debug_x86_32_console.exe
+drwxr-xr-x 2 runner runner      4096 Nov 23 14:47 .
+drwxr-xr-x 3 runner runner      4096 Nov 23 14:46 ..
+-rw-r--r-- 1 runner runner 127260725 Nov 23 14:47 android_debug.apk
+-rw-r--r-- 1 runner runner 104803333 Nov 23 14:47 android_release.apk
+-rw-r--r-- 1 runner runner 214418211 Nov 23 14:47 android_source.zip
+-rw-r--r-- 1 runner runner   4797472 Nov 23 14:47 icudt_godot.dat
+-rw-r--r-- 1 runner runner 202976946 Nov 23 14:47 ios.zip
+-rwxr-xr-x 1 runner runner  67185452 Nov 23 14:47 linux_debug.arm32
+-rwxr-xr-x 1 runner runner  68160800 Nov 23 14:47 linux_debug.arm64
+-rwxr-xr-x 1 runner runner  75323448 Nov 23 14:47 linux_debug.x86_32
+-rwxr-xr-x 1 runner runner  73703800 Nov 23 14:47 linux_debug.x86_64
+-rwxr-xr-x 1 runner runner  65784612 Nov 23 14:47 linux_release.arm32
+-rwxr-xr-x 1 runner runner  67079432 Nov 23 14:47 linux_release.arm64
+-rwxr-xr-x 1 runner runner  75679864 Nov 23 14:47 linux_release.x86_32
+-rwxr-xr-x 1 runner runner  73519416 Nov 23 14:47 linux_release.x86_64
+-rw-r--r-- 1 runner runner 123597580 Nov 23 14:47 macos.zip
+-rw-r--r-- 1 runner runner        13 Nov 23 14:47 version.txt
+-rw-r--r-- 1 runner runner  10342534 Nov 23 14:47 web_debug.zip
+-rw-r--r-- 1 runner runner  12125435 Nov 23 14:47 web_dlink_debug.zip
+-rw-r--r-- 1 runner runner  12014273 Nov 23 14:47 web_dlink_nothreads_debug.zip
+-rw-r--r-- 1 runner runner  11549046 Nov 23 14:47 web_dlink_nothreads_release.zip
+-rw-r--r-- 1 runner runner  11568406 Nov 23 14:47 web_dlink_release.zip
+-rw-r--r-- 1 runner runner  10232720 Nov 23 14:47 web_nothreads_debug.zip
+-rw-r--r-- 1 runner runner  10245903 Nov 23 14:47 web_nothreads_release.zip
+-rw-r--r-- 1 runner runner  10290815 Nov 23 14:47 web_release.zip
+-rwxr-xr-x 1 runner runner  98958848 Nov 23 14:47 windows_debug_arm64.exe
+-rwxr-xr-x 1 runner runner    159744 Nov 23 14:47 windows_debug_arm64_console.exe
+-rwxr-xr-x 1 runner runner 113264640 Nov 23 14:47 windows_debug_x86_32.exe
+-rwxr-xr-x 1 runner runner    192000 Nov 23 14:47 windows_debug_x86_32_console.exe
 
 ===== 构建失败：第 196 行，命令 [false] =====
 ----- 日志尾部 -----
@@ -548,35 +547,35 @@ _editor_log_collapse = false
 shortcuts = []
 builtin_action_overrides = []
 total 2023760
-drwxr-xr-x 2 runner runner      4096 Nov 23 14:43 .
-drwxr-xr-x 3 runner runner      4096 Nov 23 14:43 ..
--rw-r--r-- 1 runner runner 127260725 Nov 23 14:43 android_debug.apk
--rw-r--r-- 1 runner runner 104803333 Nov 23 14:43 android_release.apk
--rw-r--r-- 1 runner runner 214418211 Nov 23 14:43 android_source.zip
--rw-r--r-- 1 runner runner   4797472 Nov 23 14:43 icudt_godot.dat
--rw-r--r-- 1 runner runner 202976946 Nov 23 14:43 ios.zip
--rwxr-xr-x 1 runner runner  67185452 Nov 23 14:43 linux_debug.arm32
--rwxr-xr-x 1 runner runner  68160800 Nov 23 14:43 linux_debug.arm64
--rwxr-xr-x 1 runner runner  75323448 Nov 23 14:43 linux_debug.x86_32
--rwxr-xr-x 1 runner runner  73703800 Nov 23 14:43 linux_debug.x86_64
--rwxr-xr-x 1 runner runner  65784612 Nov 23 14:43 linux_release.arm32
--rwxr-xr-x 1 runner runner  67079432 Nov 23 14:43 linux_release.arm64
--rwxr-xr-x 1 runner runner  75679864 Nov 23 14:43 linux_release.x86_32
--rwxr-xr-x 1 runner runner  73519416 Nov 23 14:43 linux_release.x86_64
--rw-r--r-- 1 runner runner 123597580 Nov 23 14:43 macos.zip
--rw-r--r-- 1 runner runner        13 Nov 23 14:43 version.txt
--rw-r--r-- 1 runner runner  10342534 Nov 23 14:43 web_debug.zip
--rw-r--r-- 1 runner runner  12125435 Nov 23 14:43 web_dlink_debug.zip
--rw-r--r-- 1 runner runner  12014273 Nov 23 14:43 web_dlink_nothreads_debug.zip
--rw-r--r-- 1 runner runner  11549046 Nov 23 14:43 web_dlink_nothreads_release.zip
--rw-r--r-- 1 runner runner  11568406 Nov 23 14:43 web_dlink_release.zip
--rw-r--r-- 1 runner runner  10232720 Nov 23 14:43 web_nothreads_debug.zip
--rw-r--r-- 1 runner runner  10245903 Nov 23 14:43 web_nothreads_release.zip
--rw-r--r-- 1 runner runner  10290815 Nov 23 14:43 web_release.zip
--rwxr-xr-x 1 runner runner  98958848 Nov 23 14:43 windows_debug_arm64.exe
--rwxr-xr-x 1 runner runner    159744 Nov 23 14:43 windows_debug_arm64_console.exe
--rwxr-xr-x 1 runner runner 113264640 Nov 23 14:43 windows_debug_x86_32.exe
--rwxr-xr-x 1 runner runner    192000 Nov 23 14:43 windows_debug_x86_32_console.exe
+drwxr-xr-x 2 runner runner      4096 Nov 23 14:47 .
+drwxr-xr-x 3 runner runner      4096 Nov 23 14:46 ..
+-rw-r--r-- 1 runner runner 127260725 Nov 23 14:47 android_debug.apk
+-rw-r--r-- 1 runner runner 104803333 Nov 23 14:47 android_release.apk
+-rw-r--r-- 1 runner runner 214418211 Nov 23 14:47 android_source.zip
+-rw-r--r-- 1 runner runner   4797472 Nov 23 14:47 icudt_godot.dat
+-rw-r--r-- 1 runner runner 202976946 Nov 23 14:47 ios.zip
+-rwxr-xr-x 1 runner runner  67185452 Nov 23 14:47 linux_debug.arm32
+-rwxr-xr-x 1 runner runner  68160800 Nov 23 14:47 linux_debug.arm64
+-rwxr-xr-x 1 runner runner  75323448 Nov 23 14:47 linux_debug.x86_32
+-rwxr-xr-x 1 runner runner  73703800 Nov 23 14:47 linux_debug.x86_64
+-rwxr-xr-x 1 runner runner  65784612 Nov 23 14:47 linux_release.arm32
+-rwxr-xr-x 1 runner runner  67079432 Nov 23 14:47 linux_release.arm64
+-rwxr-xr-x 1 runner runner  75679864 Nov 23 14:47 linux_release.x86_32
+-rwxr-xr-x 1 runner runner  73519416 Nov 23 14:47 linux_release.x86_64
+-rw-r--r-- 1 runner runner 123597580 Nov 23 14:47 macos.zip
+-rw-r--r-- 1 runner runner        13 Nov 23 14:47 version.txt
+-rw-r--r-- 1 runner runner  10342534 Nov 23 14:47 web_debug.zip
+-rw-r--r-- 1 runner runner  12125435 Nov 23 14:47 web_dlink_debug.zip
+-rw-r--r-- 1 runner runner  12014273 Nov 23 14:47 web_dlink_nothreads_debug.zip
+-rw-r--r-- 1 runner runner  11549046 Nov 23 14:47 web_dlink_nothreads_release.zip
+-rw-r--r-- 1 runner runner  11568406 Nov 23 14:47 web_dlink_release.zip
+-rw-r--r-- 1 runner runner  10232720 Nov 23 14:47 web_nothreads_debug.zip
+-rw-r--r-- 1 runner runner  10245903 Nov 23 14:47 web_nothreads_release.zip
+-rw-r--r-- 1 runner runner  10290815 Nov 23 14:47 web_release.zip
+-rwxr-xr-x 1 runner runner  98958848 Nov 23 14:47 windows_debug_arm64.exe
+-rwxr-xr-x 1 runner runner    159744 Nov 23 14:47 windows_debug_arm64_console.exe
+-rwxr-xr-x 1 runner runner 113264640 Nov 23 14:47 windows_debug_x86_32.exe
+-rwxr-xr-x 1 runner runner    192000 Nov 23 14:47 windows_debug_x86_32_console.exe
 
 ===== 构建失败：第 196 行，命令 [false] =====
 ----- 日志尾部 -----
