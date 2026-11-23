@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: 修配置并编译
+      - name: build
         run: |
           unzip -oq project.zip -d g
           python3 - <<'PY'
@@ -17,12 +17,15 @@ jobs:
           open(p,'w',encoding='utf-8').write('\n'.join(s))
           q='g/project.godot'
           t=open(q,encoding='utf-8').read()
-          k='rendering/textures/vram_compression/import_etc2_astc=true'
-          if k not in t:
-              t=t.replace('[rendering]\n','[rendering]\n'+k+'\n')
-              open(q,'w',encoding='utf-8').write(t)
-          print('target_sdk 残留:', sum('target_sdk' in l for l in s))
-          print('ETC2 已开:', k in open(q,encoding='utf-8').read())
+          lines=[l for l in t.split('\n') if 'import_etc2_astc' not in l]
+          out=[]
+          for l in lines:
+              out.append(l)
+              if l.strip()=='[rendering]':
+                  out.append('textures/vram_compression/import_etc2_astc=true')
+          open(q,'w',encoding='utf-8').write('\n'.join(out))
+          print('[自检] target_sdk:', sum('target_sdk' in l for l in s))
+          print('[自检] etc2:', [l for l in out if 'etc2' in l])
           PY
           bash g/tools/ci_build.sh
           mkdir -p out
@@ -36,3 +39,4 @@ jobs:
           files: out/stocksim-debug.apk
           tag_name: v${{ github.run_number }}
           name: 模拟炒股 APK
+
