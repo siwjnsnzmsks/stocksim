@@ -1,0 +1,24 @@
+name: apk
+on: [push, workflow_dispatch]
+permissions:
+  contents: write
+jobs:
+  b:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 解压并编译
+        run: |
+          if [ -f project.zip ]; then unzip -q project.zip -d g; D=g; else D=.; fi
+          bash "$D/tools/ci_build.sh"
+          mkdir -p out
+          cp "$D/build/stocksim-debug.apk" out/stocksim-debug.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stocksim-apk
+          path: out/stocksim-debug.apk
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: out/stocksim-debug.apk
+          tag_name: v${{ github.run_number }}
+          name: 模拟炒股 APK
